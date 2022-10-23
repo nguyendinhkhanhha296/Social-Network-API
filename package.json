@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "nodemon server.js"
+    "watch": "nodemon index.js",
+    "seed": "node utils/seed",
+    "heroku-postbuild": "node utils/seed.js",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
     "express": "^4.17.1",
     "moment": "^2.27.0",
     "mongoose": "^5.9.23",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "console-table-printer": "^2.10.0"
   }
 }
