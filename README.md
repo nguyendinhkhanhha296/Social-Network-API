@@ -22,9 +22,9 @@
   
 💻 Below is the gif showing the functionality of the application:
   
-![Gif]()
+![Gif](./assets/ezgif.com-gif-maker.gif)
   
-🎥 The full movie file showing functionality of the application can be found [here]()  
+🎥 The full movie file showing functionality of the application can be found [here](./assets/Screen%20Recording%202022-10-24%20at%201.02.20%20AM.mov)  
   
 ## User Story
   
